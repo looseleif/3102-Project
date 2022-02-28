@@ -182,6 +182,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SBNUPOXE
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for EE3102_Project\Design Rule Check - EE3102_Project.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
