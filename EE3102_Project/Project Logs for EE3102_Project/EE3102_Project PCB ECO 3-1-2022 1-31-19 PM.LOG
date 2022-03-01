@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=NetU1_5 Pin=U3-6
+Removed Pin From Net: NetName=9V Pin=U3-7
+Change Component Comment : Designator=U3 Old Comment=LM741CN New Comment=LMC662CN
+Change Managed Component Library Link : Designator=U3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=FDE3ACC8-CE30-4B3D-BECA-7428952DD0D7 New ItemGUID=C07E6587-6B09-4E58-90ED-2E519DE64008 Old RevisionGUID=6DDF782A-E003-47CA-975B-3C0FCB047C76 New RevisionGUID=64425E1A-B689-47F1-B6AF-93CE55719F96
+Change component parameters: Designator = "U3" ("U3"); Footprint = "N08E"; UniqueID = "\LZHGJYJS" ("\LZHGJYJS")
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MS-001-BA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "LMC662 Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.national.com/ds/LM/LMC662.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "LMC662 Web Page"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.national.com/pf/LM/LMC662.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "N08E Package Page"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.national.com/packaging/folders/n08e.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CompType"; Value = "Amplifiers"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Apr-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "National Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "MDIP, .365 x .250 x .130in, 8 Lead, .100in Pitch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "N08E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageTopMarking"; Value = "NSUZXYTTE#*LMC*662CN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "revG, May-2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PinCount"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PowerWise"; Value = "N"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RevisionNote"; Value = "Component URLs added"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "N"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetU1_5 Pin=U3-1
+Added Pin To Net: NetName=9V Pin=U3-8
+Added Room: Name=EE3102_Project
+Added Room: Name=EE3102_Project_2
