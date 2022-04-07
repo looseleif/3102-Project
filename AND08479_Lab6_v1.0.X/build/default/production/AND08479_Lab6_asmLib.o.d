@@ -1,4 +1,4 @@
 build/default/production/AND08479_Lab6_asmLib.o: \
- C:/Program\ Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC24F-GA-GB_DFP/1.4.141/xc16/support\..\support\PIC24F\inc/p24FJ64GA002.inc \
- C:/Program\ Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC24F-GA-GB_DFP/1.4.141/xc16/support\..\support\generic\inc/xc.inc \
+ c:\program\ files\ (x86)\microchip\xc16\v1.40\bin\bin\..\..\support\PIC24F\inc/p24FJ64GA002.inc \
+ c:\program\ files\ (x86)\microchip\xc16\v1.40\bin\bin\..\..\support\generic\inc/xc.inc \
  AND08479_Lab6_asmLib.s

@@ -95,62 +95,62 @@ MP_LINKER_FILE_OPTION=,--script=p24FJ64GA002.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/AND08479_Lab6_main.o: AND08479_Lab6_main.c  .generated_files/9c0f4c90d91b0b05d4440a1351dd5ab7c9d4c8ca.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_main.o: AND08479_Lab6_main.c  .generated_files/flags/default/7dcc5417922e6a563e62b30345b086a017e8845c .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_main.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_main.c  -o ${OBJECTDIR}/AND08479_Lab6_main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_main.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_delay.o: AND08479_Lab6_delay.c  .generated_files/aacdf84b781c7a923060eb67499231f22182cf66.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_delay.o: AND08479_Lab6_delay.c  .generated_files/flags/default/18f88fa2be69fc5427c3a6ff937790bb30185da1 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_delay.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_delay.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_delay.c  -o ${OBJECTDIR}/AND08479_Lab6_delay.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_delay.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_circBuff.o: AND08479_Lab6_circBuff.c  .generated_files/b946166da9439a1a83c05fed31026ad7723457e8.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_circBuff.o: AND08479_Lab6_circBuff.c  .generated_files/flags/default/6bec4194685e2e390394fc9788c015ebccfc471c .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_circBuff.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_circBuff.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_circBuff.c  -o ${OBJECTDIR}/AND08479_Lab6_circBuff.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_circBuff.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_ADC.o: AND08479_Lab6_ADC.c  .generated_files/6461771f92cbeacb73d1d0d61d3afd3d525c7d7.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_ADC.o: AND08479_Lab6_ADC.c  .generated_files/flags/default/c41af18c42147584117074c2a7ef5038007ff812 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_ADC.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_ADC.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_ADC.c  -o ${OBJECTDIR}/AND08479_Lab6_ADC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_ADC.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_Display.o: AND08479_Lab6_Display.c  .generated_files/7426bc7d8a6a6ca9d169270d5401bd6cb3336135.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_Display.o: AND08479_Lab6_Display.c  .generated_files/flags/default/da4747eef1313e98765f384e4082085ee3058071 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_Display.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_Display.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_Display.c  -o ${OBJECTDIR}/AND08479_Lab6_Display.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_Display.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 else
-${OBJECTDIR}/AND08479_Lab6_main.o: AND08479_Lab6_main.c  .generated_files/71aa3634380662408bf57c422ebd3781e8243127.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_main.o: AND08479_Lab6_main.c  .generated_files/flags/default/698f0af83f519f08235e6d7bf6096b18d88e566f .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_main.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_main.c  -o ${OBJECTDIR}/AND08479_Lab6_main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_main.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_delay.o: AND08479_Lab6_delay.c  .generated_files/9b0d9245becb958c49703605780dbb5862b3484b.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_delay.o: AND08479_Lab6_delay.c  .generated_files/flags/default/7379771fcf7fa784246f3aea1b4ba7f81e29b220 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_delay.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_delay.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_delay.c  -o ${OBJECTDIR}/AND08479_Lab6_delay.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_delay.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_circBuff.o: AND08479_Lab6_circBuff.c  .generated_files/1c51c61b705bcec4ce6b622760b28248fe4357c5.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_circBuff.o: AND08479_Lab6_circBuff.c  .generated_files/flags/default/1e892183e502a1606bd708d68549a0d55a10e468 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_circBuff.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_circBuff.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_circBuff.c  -o ${OBJECTDIR}/AND08479_Lab6_circBuff.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_circBuff.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_ADC.o: AND08479_Lab6_ADC.c  .generated_files/43611358ac1c30d12ecba086bc50f452be667545.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_ADC.o: AND08479_Lab6_ADC.c  .generated_files/flags/default/cdff6339f47f66400b40e4232e749d6d6dc279f4 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_ADC.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_ADC.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  AND08479_Lab6_ADC.c  -o ${OBJECTDIR}/AND08479_Lab6_ADC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/AND08479_Lab6_ADC.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/AND08479_Lab6_Display.o: AND08479_Lab6_Display.c  .generated_files/633e4f25d68e9579515f316c797289d8a8052d30.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_Display.o: AND08479_Lab6_Display.c  .generated_files/flags/default/86042123f41c7c6cb991939ac02d2fa92633bcb7 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_Display.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_Display.o 
@@ -161,14 +161,14 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assemble
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/AND08479_Lab6_asmLib.o: AND08479_Lab6_asmLib.s  .generated_files/f0d52121339e4c581dd5653f61edda2d3f5f9571.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_asmLib.o: AND08479_Lab6_asmLib.s  .generated_files/flags/default/f577fc1b97bba6d13a1f5cc9d187dcfbdfb3ec4f .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_asmLib.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_asmLib.o 
 	${MP_CC} $(MP_EXTRA_AS_PRE)  AND08479_Lab6_asmLib.s  -o ${OBJECTDIR}/AND08479_Lab6_asmLib.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  -Wa,-MD,"${OBJECTDIR}/AND08479_Lab6_asmLib.o.d",--defsym=__MPLAB_BUILD=1,--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g,--no-relax$(MP_EXTRA_AS_POST)  -mdfp="${DFP_DIR}/xc16"
 	
 else
-${OBJECTDIR}/AND08479_Lab6_asmLib.o: AND08479_Lab6_asmLib.s  .generated_files/c358d88384b7455113bebc6f1b1d7957ededaf40.flag .generated_files/647cdef09a74fadadc5113b1ead3e23ada6a50f5.flag
+${OBJECTDIR}/AND08479_Lab6_asmLib.o: AND08479_Lab6_asmLib.s  .generated_files/flags/default/b1e056f9ec028a063960100e0032094d4f162363 .generated_files/flags/default/292ec0637d014a04657419c3011fcad17e352c56
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_asmLib.o.d 
 	@${RM} ${OBJECTDIR}/AND08479_Lab6_asmLib.o 

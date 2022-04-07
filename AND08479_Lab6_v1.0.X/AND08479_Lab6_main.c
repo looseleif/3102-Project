@@ -70,7 +70,7 @@ int main(void) {
     
     double max = 0;
     
-    unsigned char adStr[20];
+    char adStr[20];
     
     double currDiff = 0;
     
@@ -95,7 +95,7 @@ int main(void) {
         
         currDiff = avg*((max-min)/40)*1000;
         
-        sprintf(&adStr, "%3.3f mA", currDiff);
+        sprintf(adStr, "%3.3f mA", currDiff);
         
         
         setCursor(0,0);
