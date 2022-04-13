@@ -188,12 +188,12 @@ Default Scalar Model: Small
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200              0x1876          0x24b1  (9393)
-.const                      0x1a76                0x1a            0x27  (39)
-.text                       0x1a90               0x332           0x4cb  (1227)
-.dinit                      0x1dc2                0xfa           0x177  (375)
-.text                       0x1ebc               0x12a           0x1bf  (447)
+.const                      0x1a76                0x22            0x33  (51)
+.text                       0x1a98               0x320           0x4b0  (1200)
+.dinit                      0x1db8                0xfa           0x177  (375)
+.text                       0x1eb2               0x12a           0x1bf  (447)
 
-                 Total "program" memory used (bytes):         0x2cd9  (11481) 17%
+                 Total "program" memory used (bytes):         0x2cca  (11466) 17%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x2000]
@@ -329,21 +329,21 @@ External Symbols in Program Memory (by address):
                   0x0019b2                  __dunpack
                   0x001a00                  ___floatdidf
                   0x001a20                  ___floatundidf
-                  0x001a90                  _lcd_cmd
-                  0x001ade                  _lcd_init
-                  0x001b30                  _setCursor
-                  0x001b48                  _printChar
-                  0x001b98                  _lcd_printStr
-                  0x001c40                  _shift
-                  0x001c4a                  _loop
-                  0x001c54                  _makeButton
-                  0x001c62                  _main
-                  0x001ebc                  _initADC
-                  0x001f4a                  _initBuffer
-                  0x001f6a                  _putVal
-                  0x001f88                  _getAvg
-                  0x001fc6                  _delay
-                  0x001fe0                  _wait_1ms
+                  0x001a98                  _lcd_cmd
+                  0x001ae6                  _lcd_init
+                  0x001b38                  _setCursor
+                  0x001b50                  _printChar
+                  0x001ba0                  _lcd_printStr
+                  0x001c48                  _shift
+                  0x001c52                  _loop
+                  0x001c5c                  _makeButton
+                  0x001c6a                  _main
+                  0x001eb2                  _initADC
+                  0x001f40                  _initBuffer
+                  0x001f60                  _putVal
+                  0x001f7e                  _getAvg
+                  0x001fbc                  _delay
+                  0x001fd6                  _wait_1ms
 
 External Symbols in Program Memory (by name):
 
@@ -411,29 +411,29 @@ External Symbols in Program Memory (by name):
                   0x00023c                  __psv_init
                   0x000200                  __resetPRI
                   0x0006dc                  __sprintf_fF
-                  0x001fc6                  _delay
+                  0x001fbc                  _delay
                   0x000d96                  _div
                   0x000ffa                  _efwrite
                   0x001284                  _fclose
                   0x00134c                  _free
-                  0x001f88                  _getAvg
-                  0x001ebc                  _initADC
-                  0x001f4a                  _initBuffer
-                  0x001a90                  _lcd_cmd
-                  0x001ade                  _lcd_init
-                  0x001b98                  _lcd_printStr
+                  0x001f7e                  _getAvg
+                  0x001eb2                  _initADC
+                  0x001f40                  _initBuffer
+                  0x001a98                  _lcd_cmd
+                  0x001ae6                  _lcd_init
+                  0x001ba0                  _lcd_printStr
                   0x000dac                  _ldiv
-                  0x001c4a                  _loop
-                  0x001c62                  _main
-                  0x001c54                  _makeButton
+                  0x001c52                  _loop
+                  0x001c6a                  _main
+                  0x001c5c                  _makeButton
                   0x001416                  _malloc
                   0x0006a6                  _memcpy
-                  0x001b48                  _printChar
-                  0x001f6a                  _putVal
-                  0x001b30                  _setCursor
-                  0x001c40                  _shift
+                  0x001b50                  _printChar
+                  0x001f60                  _putVal
+                  0x001b38                  _setCursor
+                  0x001c48                  _shift
                   0x000dd6                  _strchr
-                  0x001fe0                  _wait_1ms
+                  0x001fd6                  _wait_1ms
                   0x001314                  fclose.XX_elo:_closeall
                   0x0006b4                  sprintf_fF.XXeo:_eprout
                   0x0006ce                  sprintf_fF.XXeo:_prout
@@ -709,22 +709,22 @@ __CONFIG1
  .debug_abbrev    0x000201        0x10a build/default/production/display.o
  .debug_abbrev    0x00030b        0x11a build/default/production/main.o
 
-.debug_line       0x000000        0x47d
+.debug_line       0x000000        0x47c
  *(.debug_line)
  .debug_line      0x000000        0x121 build/default/production/ADC.o
  .debug_line      0x000121         0x37 build/default/production/asmLib.o
  .debug_line      0x000158         0x48 build/default/production/circBuff.o
  .debug_line      0x0001a0         0x36 build/default/production/delay.o
  .debug_line      0x0001d6        0x15e build/default/production/display.o
- .debug_line      0x000334        0x149 build/default/production/main.o
+ .debug_line      0x000334        0x148 build/default/production/main.o
 
-.debug_frame      0x000000        0x25a
+.debug_frame      0x000000        0x23e
  *(.debug_frame)
  .debug_frame     0x000000         0x2e build/default/production/ADC.o
  .debug_frame     0x00002e         0x62 build/default/production/circBuff.o
  .debug_frame     0x000090         0x2e build/default/production/delay.o
  .debug_frame     0x0000be         0xca build/default/production/display.o
- .debug_frame     0x000188         0xd2 build/default/production/main.o
+ .debug_frame     0x000188         0xb6 build/default/production/main.o
 
 .debug_str        0x000000         0xe5
  *(.debug_str)
@@ -1564,33 +1564,33 @@ __c30_signature
  .ivt._T1Interrupt
                   0x00001a          0x2 build/default/production/main.o
 
-.const              0x9a76         0x1a load address 0x001a76  
- .const             0x9a76         0x1a build/default/production/main.o
+.const              0x9a76         0x22 load address 0x001a76  
+ .const             0x9a76         0x22 build/default/production/main.o
 
-.text             0x001a90        0x332
- .text            0x001a90        0x1c4 build/default/production/display.o
-                  0x001a90                  _lcd_cmd
-                  0x001ade                  _lcd_init
-                  0x001b30                  _setCursor
-                  0x001b48                  _printChar
-                  0x001b98                  _lcd_printStr
-                  0x001c40                  _shift
-                  0x001c4a                  _loop
- .text            0x001c54        0x16e build/default/production/main.o
-                  0x001c54                  _makeButton
-                  0x001c62                  _main
+.text             0x001a98        0x320
+ .text            0x001a98        0x1c4 build/default/production/display.o
+                  0x001a98                  _lcd_cmd
+                  0x001ae6                  _lcd_init
+                  0x001b38                  _setCursor
+                  0x001b50                  _printChar
+                  0x001ba0                  _lcd_printStr
+                  0x001c48                  _shift
+                  0x001c52                  _loop
+ .text            0x001c5c        0x15c build/default/production/main.o
+                  0x001c5c                  _makeButton
+                  0x001c6a                  _main
 
-.dinit            0x001dc2         0xfa
- .dinit           0x001dc2         0xfa data_init
+.dinit            0x001db8         0xfa
+ .dinit           0x001db8         0xfa data_init
 
-.text             0x001ebc        0x12a
- .text            0x001ebc         0x8e build/default/production/ADC.o
-                  0x001ebc                  _initADC
- .text            0x001f4a         0x7c build/default/production/circBuff.o
-                  0x001f4a                  _initBuffer
-                  0x001f6a                  _putVal
-                  0x001f88                  _getAvg
- .text            0x001fc6         0x1a build/default/production/delay.o
-                  0x001fc6                  _delay
- .text            0x001fe0          0x6 build/default/production/asmLib.o
-                  0x001fe0                  _wait_1ms
+.text             0x001eb2        0x12a
+ .text            0x001eb2         0x8e build/default/production/ADC.o
+                  0x001eb2                  _initADC
+ .text            0x001f40         0x7c build/default/production/circBuff.o
+                  0x001f40                  _initBuffer
+                  0x001f60                  _putVal
+                  0x001f7e                  _getAvg
+ .text            0x001fbc         0x1a build/default/production/delay.o
+                  0x001fbc                  _delay
+ .text            0x001fd6          0x6 build/default/production/asmLib.o
+                  0x001fd6                  _wait_1ms

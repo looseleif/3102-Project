@@ -88,7 +88,7 @@ int main(void) {
           
           setCursor(0,1);
         
-          sprintf(&adStr, "- %3.3f", min);
+          sprintf(&adStr, "-min set");
           
           lcd_printStr(adStr);
             
@@ -100,7 +100,7 @@ int main(void) {
           
           setCursor(0,1);
         
-          sprintf(&adStr, "+ %3.3f", max);
+          sprintf(&adStr, "+max set");
           
           lcd_printStr(adStr);
             
@@ -112,7 +112,7 @@ int main(void) {
             
             currDiff = ((avg-Vint)*((.040)/((max)-(min))))*1000; // original input code for current difference calc
 
-            correctedCurrDiff = currDiff - ((-0.003179*currDiff*currDiff)+(.1938*currDiff)-(1.445)); // using curve fit to correct current reading
+            correctedCurrDiff = currDiff - ((-0.003758*currDiff*currDiff)+(.2261*currDiff)-(1.85)); // using curve fit to correct current reading
 
             sprintf(&adStr, "%6.4f", correctedCurrDiff);
 
@@ -122,7 +122,7 @@ int main(void) {
 
             setCursor(0,1); // second row
 
-            sprintf(&adStr, "mA");
+            sprintf(&adStr, "mA      ");
 
             lcd_printStr(adStr); // print "mA" to screen
         
